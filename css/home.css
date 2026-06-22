@@ -1,0 +1,26 @@
+header{
+  display: flex;
+  background-color: #363636;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header-link{
+  gap: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.header-link > p > a{
+  color: white;
+  text-decoration: none;
+
+}
+.header-link > p > a:hover{
+  text-decoration: underline;
+}
