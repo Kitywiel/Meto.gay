@@ -1,0 +1,114 @@
+@import url(../settings/dashboard-colors.css);
+@import url(../settings/general-css-settings.css);
+
+/* header sections */
+.header-page-top{
+  color: aliceblue;
+  display: flex;
+  height: 50px;
+  align-content: center;
+  background-color: var(--background-dark);
+  min-width: 100vw;
+  justify-content: space-between;
+}
+
+.header-page-top_top-left-container{
+  min-width: 5vw;
+  overflow-y: visible;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-page-top_login-card{
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  min-width: 5vw;
+  justify-content: end;
+  overflow-y: visible;
+}
+
+.header-page-top_login-card_img{
+  border-radius: 40px;
+  margin-left: 10px;
+}
+
+/* main sections */
+main{
+  display: flex;
+  height: 94.6vh;
+}
+
+/* navegation section */
+nav{
+  background-color: var(--background-dark);
+  width: 200px;
+}
+
+/* main sections */
+main > section{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+/* home card section */
+.cards-conatainer{
+  width: 60vw;
+}
+
+/* owned domain card */
+.domains-user-owned{
+  background-color: var(--background-cards);
+  margin-top: 6vh;
+  min-height: 50vh;
+}
+
+.domains-user-owned > h1{
+  text-align: center;
+  width: 100%;
+  color: aliceblue;
+}
+
+.seperator{
+  height: 2px;
+  background-color: var(--seperator-lines);
+  margin: 3px 25px 5px 25px;
+  border-radius: 5px;
+}
+.seperator1{
+  height: 1px;
+  background-color: var(--seperator-lines);
+  margin: 3px 25px 5px 25px;
+  border-radius: 5px;
+}
+
+.domain-label{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px 3px 25px;
+  color: aliceblue;
+}
+
+.scroll-frame-domain{
+  display: flex;
+  flex-direction: column;
+  overflow-y:scroll;
+  min-height: 41.9vh;
+  max-height: 41.9vh;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-bar-color) var(--background-dark);
+  gap: 3px;
+}
+
+.domain-main-holder{
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  background-color: var(--domain-card-color);
+  padding: 2px 5px 2px 5px;
+  margin: 1px 10px 1px 20px;
+  border-radius: 5px;
+}
